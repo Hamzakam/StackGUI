@@ -5,8 +5,9 @@ from tkinter import messagebox
 
 class Stack():
 
-    el_list = []
+    
     def __init__(self,master):
+        self.el_list = []
         self.master = master
         self.master.title("Stack")
         self.master.geometry("700x700")
